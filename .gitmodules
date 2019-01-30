@@ -1,0 +1,3 @@
+[submodule "lib/parsers"]
+	path = lib/parsers
+	url = https://github.com/analyzeDFIR/libadfir-parser.git
