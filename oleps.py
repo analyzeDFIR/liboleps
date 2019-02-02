@@ -33,7 +33,7 @@ except ImportError:
     from .lib.parsers.utils import StructureProperty, WindowsTime
     from .structures import oleps as olepsstructs
 
-class OLETypedPropertyValue(BytesParser):
+class OLETypedPropertyValue(ByteParser):
     '''
     Class for TypedPropertyValue structures from a Windows 
     Object Embedding and Linking (OLE) Property Set
